@@ -53,7 +53,7 @@
 
     "custom/power": {
         "format": " ",
-        "on-click":"control --minimal --power"
+        "on-click":"shutdown -h now"
     },
 
     "clock": {
