@@ -1,0 +1,102 @@
+/* TODO: unify color definitions */
+@define-color bg rgba(30, 136, 229, 0.5); /* Light blue */
+@define-color yellow #FFD600; /* Bright yellow */
+@define-color blue #1E88E5; /* Strong blue */
+@define-color dark-blue #0D47A1; /* Dark blue for accents */
+@define-color light-yellow #FFEB3B; /* Lighter yellow for hover effects */
+@define-color light-blue rgba(30, 136, 229, 0.2); /* Lighter blue for backgrounds */
+
+/* Global styles */
+window {
+  margin: 0px;
+  border: 2px solid @yellow;
+  border-radius: 10px;
+  background-color: @bg;
+  font-family: JetBrains Mono, monospace;
+  color: @yellow;
+}
+
+/* Input box */
+#input {
+  margin: 5px;
+  border: 1px solid @yellow;
+  color: @yellow;
+  background-color: @light-blue;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+#input::placeholder {
+  color: @yellow;
+}
+
+#input:focus {
+  color: @yellow;
+}
+
+#input prompt {
+  color: @yellow;
+}
+
+#input image {
+  color: @yellow;
+}
+
+#prompt {
+  color: @yellow;
+}
+
+/* Inner box */
+#inner-box {
+  margin: 5px;
+  border: none;
+  color: @yellow;
+  padding: 0px;
+}
+
+/* Outer box */
+#outer-box {
+  margin: 5px;
+  border: none;
+  padding: 5px;
+}
+
+/* Scroll area */
+#scroll {
+  margin: 0px;
+}
+
+/* Text styling */
+#text {
+  margin: 5px;
+  border: none;
+  color: @yellow;
+  font-size: 14px;
+}
+
+#entry.activatable #text {
+  color: @yellow;
+}
+
+#entry > * {
+  color: @yellow;
+}
+
+/* Active entry */
+#entry:selected {
+  background-color: @yellow;
+  border-radius: 5px;
+}
+
+#entry:selected #text {
+  font-weight: bold;
+  color: @blue;
+}
+
+#entry:hover {
+  background-color: @light-yellow;
+}
+
+#entry:hover #text {
+  color: @blue;
+}
