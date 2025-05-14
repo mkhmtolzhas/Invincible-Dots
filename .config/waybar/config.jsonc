@@ -67,7 +67,7 @@
         "tooltip":false
     },
     "bluetooth": {
-        "format-on": " ",
+        "format-on": "  ",
         "on-click": "control --minimal --bluetooth",
         "tooltip":false
     },
