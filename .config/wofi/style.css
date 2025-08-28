@@ -1,56 +1,50 @@
-/* TODO: unify color definitions */
-@define-color bg rgba(30, 136, 229, 0.5); /* Light blue */
-@define-color yellow #FFD600; /* Bright yellow */
-@define-color blue #1E88E5; /* Strong blue */
-@define-color dark-blue #0D47A1; /* Dark blue for accents */
-@define-color light-yellow #FFEB3B; /* Lighter yellow for hover effects */
-@define-color light-blue rgba(30, 136, 229, 0.2); /* Lighter blue for backgrounds */
+@import url('/home/mkhmtcore/.cache/wal/colors-waybar.css');
 
 /* Global styles */
 window {
   margin: 0px;
-  border: 2px solid @yellow;
+  border: 2px solid @color7;
   border-radius: 10px;
-  background-color: @bg;
+  background-color: @color0;
   font-family: JetBrains Mono, monospace;
-  color: @yellow;
+  color: @color7;
 }
 
 /* Input box */
 #input {
   margin: 5px;
-  border: 1px solid @yellow;
-  color: @yellow;
-  background-color: @light-blue;
+  border: 1px solid @color7;
+  color: @color7;
+  background-color: @color0;
   padding: 6px;
   border-radius: 5px;
 }
 
 #input::placeholder {
-  color: @yellow;
+  color: @color7;
 }
 
 #input:focus {
-  color: @yellow;
+  color: @color7;
 }
 
 #input prompt {
-  color: @yellow;
+  color: @color7;
 }
 
 #input image {
-  color: @yellow;
+  color: @color7;
 }
 
 #prompt {
-  color: @yellow;
+  color: @color7;
 }
 
 /* Inner box */
 #inner-box {
   margin: 5px;
   border: none;
-  color: @yellow;
+  color: @color7;
   padding: 0px;
 }
 
@@ -70,33 +64,34 @@ window {
 #text {
   margin: 5px;
   border: none;
-  color: @yellow;
+  color: @color7;
   font-size: 14px;
 }
 
 #entry.activatable #text {
-  color: @yellow;
+  color: @color7;
 }
 
 #entry > * {
-  color: @yellow;
+  color: @color7;
 }
 
 /* Active entry */
 #entry:selected {
-  background-color: @yellow;
+  background-color: @color8;
   border-radius: 5px;
 }
 
 #entry:selected #text {
   font-weight: bold;
-  color: @blue;
+  color: @color7;
 }
 
 #entry:hover {
-  background-color: @light-yellow;
+  background-color: @color10;
 }
 
 #entry:hover #text {
-  color: @blue;
+  color: @color11;
 }
+

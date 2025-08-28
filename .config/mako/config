@@ -1,8 +1,6 @@
-# Colors
-background-color=#1E88E5
-text-color=#FFD600
-border-color=#FFD600
-progress-color=#FFD600
+background-color=#0b0c1b
+text-color=#c2c2c6
+border-color=#106ED0
 
 # Font & Size
 font=JetBrains Mono 12
@@ -20,18 +18,4 @@ default-timeout=5000
 # alpha=0.9  # Uncomment if using transparency (try adjusting from 0.5 to 1)
 
 # Urgency Levels
-[urgency=high]
-border-color=#FFD600
-text-color=#FFD600
-background-color=#1976D2
-
-[urgency=normal]
-border-color=#FFD600
-text-color=#FFFFFF
-background-color=#2196F3
-
-[urgency=low]
-border-color=#FFD600
-text-color=#FFFFFF
-background-color=#4CAF50
 
