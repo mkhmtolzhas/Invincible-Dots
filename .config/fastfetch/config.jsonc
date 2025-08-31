@@ -3,7 +3,6 @@
   "logo": {
     "type": "file",
     "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/ascii/\" -name \"*.txt\" | shuf -n 1)",
-    "height": 25
   },
   "display": {
     "separator": " : "

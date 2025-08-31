@@ -6,3 +6,4 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("source ~/.cache/wal/colors-wal.vim")
 
 vim.wo.number = true
+vim.wo.relativenumber = true

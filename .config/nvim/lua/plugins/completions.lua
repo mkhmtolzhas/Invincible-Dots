@@ -1,9 +1,9 @@
 return {
   {
-    "hrsh7th/cmp-nvim-lsp"
+    "hrsh7th/cmp-nvim-lsp",
   },
   {
-    'github/copilot.vim',
+    "github/copilot.vim",
   },
   {
     "L3MON4D3/LuaSnip",
