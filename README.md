@@ -14,7 +14,7 @@ Welcome to my Hyprland Rice configuration! This setup is designed to provide a c
 
 ## Screenshots
 
-![Desktop Screenshot](.config/screen/screen.png)
+![Desktop Screenshot](.config/screen/image.png)
 
 ## Installation
 
