@@ -26,7 +26,7 @@ Welcome to my Hyprland Rice configuration! This setup is designed to provide a c
 
 2. Install the required dependencies:
     ```bash
-    sudo pacman -S hyprland kitty wofi waybar mako
+    sudo pacman -S hyprland kitty wofi waybar mako ttf-jetbrains-mono ttf-jetbrains-mono-nerd
     yay -S python-pywal16
     ```
 
