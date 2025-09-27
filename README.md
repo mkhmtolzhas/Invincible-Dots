@@ -35,8 +35,8 @@ Welcome to my Hyprland Rice configuration! This setup is designed to provide a c
     cp -r .config/* ~/.config/
     ```
 
-4. Update the Waybar configuration:
-    If your Waybar configuration references a CSS file like `/home/mkhmtcore/.cache/wal/colors-waybar.css`, make sure to replace `mkhmtcore` with your actual username.
+4. Update the Waybar and Wofi configuration:
+    If your Waybar and Wofi configuration references a CSS file like `/home/mkhmtcore/.cache/wal/colors-waybar.css`, make sure to replace `mkhmtcore` with your actual username.
 
 5. Restart your session and enjoy your new setup!
 
